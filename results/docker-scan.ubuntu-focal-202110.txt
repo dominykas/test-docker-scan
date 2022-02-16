@@ -1,0 +1,232 @@
+
+Testing test-scan:ubuntu-focal-202110...
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Time-of-check Time-of-use (TOCTOU)
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-SHADOW-577863
+  Introduced through: shadow/passwd@1:4.8.1-1ubuntu5.20.04.1, adduser@3.118ubuntu2, shadow/login@1:4.8.1-1ubuntu5.20.04.1, util-linux/mount@2.34-0.1ubuntu9.1
+  From: shadow/passwd@1:4.8.1-1ubuntu5.20.04.1
+  From: adduser@3.118ubuntu2 > shadow/passwd@1:4.8.1-1ubuntu5.20.04.1
+  From: shadow/login@1:4.8.1-1ubuntu5.20.04.1
+  and 1 more...
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Uncontrolled Recursion
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-PCRE3-580031
+  Introduced through: pcre3/libpcre3@2:8.39-12build1, grep@3.4-1
+  From: pcre3/libpcre3@2:8.39-12build1
+  From: grep@3.4-1 > pcre3/libpcre3@2:8.39-12build1
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-PCRE3-581164
+  Introduced through: pcre3/libpcre3@2:8.39-12build1, grep@3.4-1
+  From: pcre3/libpcre3@2:8.39-12build1
+  From: grep@3.4-1 > pcre3/libpcre3@2:8.39-12build1
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-PCRE3-583594
+  Introduced through: pcre3/libpcre3@2:8.39-12build1, grep@3.4-1
+  From: pcre3/libpcre3@2:8.39-12build1
+  From: grep@3.4-1 > pcre3/libpcre3@2:8.39-12build1
+
+✗ Low severity vulnerability found in libtasn1-6
+  Description: CVE-2018-1000654
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-LIBTASN16-578037
+  Introduced through: libtasn1-6@4.16.0-2, apt@2.0.6
+  From: libtasn1-6@4.16.0-2
+  From: apt@2.0.6 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6 > libtasn1-6@4.16.0-2
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-LIBSEPOL-1315883
+  Introduced through: libsepol/libsepol1@3.0-1, adduser@3.118ubuntu2
+  From: libsepol/libsepol1@3.0-1
+  From: adduser@3.118ubuntu2 > shadow/passwd@1:4.8.1-1ubuntu5.20.04.1 > libsemanage/libsemanage1@3.0-1build2 > libsepol/libsepol1@3.0-1
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-LIBSEPOL-1315888
+  Introduced through: libsepol/libsepol1@3.0-1, adduser@3.118ubuntu2
+  From: libsepol/libsepol1@3.0-1
+  From: adduser@3.118ubuntu2 > shadow/passwd@1:4.8.1-1ubuntu5.20.04.1 > libsemanage/libsemanage1@3.0-1build2 > libsepol/libsepol1@3.0-1
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-LIBSEPOL-1315894
+  Introduced through: libsepol/libsepol1@3.0-1, adduser@3.118ubuntu2
+  From: libsepol/libsepol1@3.0-1
+  From: adduser@3.118ubuntu2 > shadow/passwd@1:4.8.1-1ubuntu5.20.04.1 > libsemanage/libsemanage1@3.0-1build2 > libsepol/libsepol1@3.0-1
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-LIBSEPOL-1315896
+  Introduced through: libsepol/libsepol1@3.0-1, adduser@3.118ubuntu2
+  From: libsepol/libsepol1@3.0-1
+  From: adduser@3.118ubuntu2 > shadow/passwd@1:4.8.1-1ubuntu5.20.04.1 > libsemanage/libsemanage1@3.0-1build2 > libsepol/libsepol1@3.0-1
+
+✗ Low severity vulnerability found in gmp/libgmp10
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-GMP-1921284
+  Introduced through: gmp/libgmp10@2:6.2.0+dfsg-4, apt@2.0.6
+  From: gmp/libgmp10@2:6.2.0+dfsg-4
+  From: apt@2.0.6 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6 > gmp/libgmp10@2:6.2.0+dfsg-4
+  From: apt@2.0.6 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6 > nettle/libhogweed5@3.5.1+really3.5.1-2ubuntu0.2 > gmp/libgmp10@2:6.2.0+dfsg-4
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1048386
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: meta-common-packages@meta > glibc/libc6@2.31-0ubuntu9.2
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1055780
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: meta-common-packages@meta > glibc/libc6@2.31-0ubuntu9.2
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Out-of-bounds Read
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1055790
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: meta-common-packages@meta > glibc/libc6@2.31-0ubuntu9.2
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Reachable Assertion
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1122573
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: meta-common-packages@meta > glibc/libc6@2.31-0ubuntu9.2
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Double Free
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1123084
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: meta-common-packages@meta > glibc/libc6@2.31-0ubuntu9.2
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Use After Free
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1297554
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: meta-common-packages@meta > glibc/libc6@2.31-0ubuntu9.2
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Integer Overflow or Wraparound
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1315365
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: meta-common-packages@meta > glibc/libc6@2.31-0ubuntu9.2
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-2356799
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: meta-common-packages@meta > glibc/libc6@2.31-0ubuntu9.2
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Buffer Overflow
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-2356852
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: meta-common-packages@meta > glibc/libc6@2.31-0ubuntu9.2
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-576349
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: meta-common-packages@meta > glibc/libc6@2.31-0ubuntu9.2
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Integer Underflow
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-576428
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: meta-common-packages@meta > glibc/libc6@2.31-0ubuntu9.2
+
+✗ Low severity vulnerability found in coreutils
+  Description: Improper Input Validation
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-COREUTILS-583876
+  Introduced through: coreutils@8.30-3ubuntu2
+  From: coreutils@8.30-3ubuntu2
+
+✗ Low severity vulnerability found in bash
+  Description: Improper Check for Dropped Privileges
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-BASH-581100
+  Introduced through: bash@5.0-6ubuntu1.1
+  From: bash@5.0-6ubuntu1.1
+
+✗ Medium severity vulnerability found in util-linux/libblkid1
+  Description: CVE-2021-3996
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-UTILLINUX-2387723
+  Introduced through: util-linux/libblkid1@2.34-0.1ubuntu9.1, e2fsprogs@1.45.5-2ubuntu1, util-linux/mount@2.34-0.1ubuntu9.1, util-linux/fdisk@2.34-0.1ubuntu9.1, util-linux/libuuid1@2.34-0.1ubuntu9.1, util-linux@2.34-0.1ubuntu9.1, sysvinit/sysvinit-utils@2.96-2.1ubuntu1, util-linux/libfdisk1@2.34-0.1ubuntu9.1, util-linux/libmount1@2.34-0.1ubuntu9.1, util-linux/libsmartcols1@2.34-0.1ubuntu9.1
+  From: util-linux/libblkid1@2.34-0.1ubuntu9.1
+  From: e2fsprogs@1.45.5-2ubuntu1 > util-linux/libblkid1@2.34-0.1ubuntu9.1
+  From: util-linux/mount@2.34-0.1ubuntu9.1 > util-linux/libblkid1@2.34-0.1ubuntu9.1
+  and 22 more...
+  Fixed in: 2.34-0.1ubuntu9.3
+
+✗ Medium severity vulnerability found in util-linux/libblkid1
+  Description: CVE-2021-3995
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-UTILLINUX-2387728
+  Introduced through: util-linux/libblkid1@2.34-0.1ubuntu9.1, e2fsprogs@1.45.5-2ubuntu1, util-linux/mount@2.34-0.1ubuntu9.1, util-linux/fdisk@2.34-0.1ubuntu9.1, util-linux/libuuid1@2.34-0.1ubuntu9.1, util-linux@2.34-0.1ubuntu9.1, sysvinit/sysvinit-utils@2.96-2.1ubuntu1, util-linux/libfdisk1@2.34-0.1ubuntu9.1, util-linux/libmount1@2.34-0.1ubuntu9.1, util-linux/libsmartcols1@2.34-0.1ubuntu9.1
+  From: util-linux/libblkid1@2.34-0.1ubuntu9.1
+  From: e2fsprogs@1.45.5-2ubuntu1 > util-linux/libblkid1@2.34-0.1ubuntu9.1
+  From: util-linux/mount@2.34-0.1ubuntu9.1 > util-linux/libblkid1@2.34-0.1ubuntu9.1
+  and 22 more...
+  Fixed in: 2.34-0.1ubuntu9.3
+
+✗ Medium severity vulnerability found in systemd/libsystemd0
+  Description: CVE-2021-3997
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-SYSTEMD-2332040
+  Introduced through: systemd/libsystemd0@245.4-4ubuntu3.13, apt@2.0.6, procps/libprocps8@2:3.3.16-1ubuntu2.3, util-linux/bsdutils@1:2.34-0.1ubuntu9.1, util-linux/mount@2.34-0.1ubuntu9.1, systemd/libudev1@245.4-4ubuntu3.13
+  From: systemd/libsystemd0@245.4-4ubuntu3.13
+  From: apt@2.0.6 > systemd/libsystemd0@245.4-4ubuntu3.13
+  From: procps/libprocps8@2:3.3.16-1ubuntu2.3 > systemd/libsystemd0@245.4-4ubuntu3.13
+  and 6 more...
+  Fixed in: 245.4-4ubuntu3.15
+
+✗ Medium severity vulnerability found in perl/perl-base
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-PERL-1930907
+  Introduced through: meta-common-packages@meta
+  From: meta-common-packages@meta > perl/perl-base@5.30.0-9ubuntu0.2
+
+✗ Medium severity vulnerability found in glibc/libc-bin
+  Description: NULL Pointer Dereference
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1564900
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: meta-common-packages@meta > glibc/libc6@2.31-0ubuntu9.2
+
+✗ Medium severity vulnerability found in glibc/libc-bin
+  Description: CVE-2021-3999
+  Info: https://snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-2359259
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, meta-common-packages@meta
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: meta-common-packages@meta > glibc/libc6@2.31-0ubuntu9.2
+
+
+
+Organization:      slmteam
+Package manager:   deb
+Project name:      docker-image|test-scan
+Docker image:      test-scan:ubuntu-focal-202110
+Platform:          linux/amd64
+Base image:        ubuntu:20.04
+Licenses:          enabled
+
+Tested 93 dependencies for known issues, found 29 issues.
+
+Your base image is out of date
+1) Pull the latest version of your base image by running 'docker pull ubuntu:20.04'
+2) Rebuild your local image
+
+
